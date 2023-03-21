@@ -1,0 +1,23 @@
+.mainPage{
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+}
+.order{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+.order button{
+    background-color: orangered;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+}
