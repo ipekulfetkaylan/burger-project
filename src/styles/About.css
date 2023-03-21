@@ -1,0 +1,18 @@
+.about{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+.aboutTop{
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    background-position: center;
+}
+.aboutBottom{
+    text-align: center;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

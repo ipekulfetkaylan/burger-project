@@ -1,0 +1,61 @@
+.contact{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.leftSide{
+    flex: 50%;
+    height: 80%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+}
+.rightSide{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightSide form{
+    display: flex;
+    flex-direction: column;
+
+}
+form input,
+form textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 40px;
+    width: 80%;
+    outline: none;
+    font-size: 20px;
+}
+ ::placeholder{
+    font-size: 15px;
+}
+form textarea{
+    height: 70px;
+    margin-top: 15px;
+}
+form label{
+    color: grey;
+    margin-top: 15px;
+}
+form button{
+    background-color: #FC7300;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}

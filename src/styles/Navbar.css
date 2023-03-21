@@ -1,5 +1,5 @@
 .navbar{
-    background-color: orangered;
+    background-color: #FC7300;
 }
 .navbar .main{
     display: flex;
@@ -18,4 +18,5 @@
     text-decoration: none;
     margin-right: 20px;
     color: #fff;
+    font-size: 20px;
 }
