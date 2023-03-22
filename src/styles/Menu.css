@@ -1,9 +1,4 @@
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .menuItem{
     width: 300px;
     height: 350px;
@@ -21,6 +16,36 @@
 }
 .menuList{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 70vw;
+}
+.menuTitle{
+    padding-left: 20px;
+}
+@media (min-width:576px) {
+    .menuList{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:768px) {
+    .menuList{
+        grid-template-columns: 2fr 2fr;
+    }
+
+}
+@media (min-width:992px) {
+    .menuList{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+}
+@media (min-width:1200px) {
+    .menuList{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 70vw;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
 }

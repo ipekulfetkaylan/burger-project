@@ -1,9 +1,7 @@
 .navbar{
     background-color: #FC7300;
 }
-.navbar .main{
-    display: flex;
-}
+
 .navbar .main img{
     height: 120px;
     margin-left: 100px;
@@ -19,4 +17,10 @@
     margin-right: 20px;
     color: #fff;
     font-size: 20px;
+}
+
+@media (min-width:576px) {
+    .navbar .main{
+        display: flex;
+    }
 }
