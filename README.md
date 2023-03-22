@@ -1,3 +1,9 @@
+# React ile oluşturulmuş bir websitesi
+## Ön izleme için linke tıklayabilirsiniz 
+[Link](https://reactburger.netlify.app/)
+
+![Getting Started](../burger-project/src/assets/readMe-Img/burger1.png)
+![Getting Started](../burger-project/src/assets/readMe-Img/burger2.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
